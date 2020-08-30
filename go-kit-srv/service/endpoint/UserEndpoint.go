@@ -1,10 +1,9 @@
 package endpoint
 
 import (
-	"errors"
-	"go-kit-srv/service"
 	"context"
 	"github.com/go-kit/kit/endpoint"
+	"go-kit-srv/service"
 	"golang.org/x/time/rate"
 )
 
@@ -22,7 +21,7 @@ func RateLimit(limit *rate.Limiter) endpoint.Middleware {
 	return func(next endpoint.Endpoint) endpoint.Endpoint {
 		return func(ctx context.Context, request interface{}) (response interface{}, err error) {
 			if !limit.Allow() {
-				return nil, errors.New("too many requests")
+				return nil, service.NewMyError(429, "too many requests")
 			}
 			return next(ctx, request)
 		}

@@ -35,7 +35,12 @@ func main() {
 	user:=service.UserService{}
 	limit := rate.NewLimiter(1,  3)
 	userEndpoint:= endpoint.RateLimit(limit)(endpoint.GenUserEndpoint(user))
-	serverHandler := httptransport.NewServer(userEndpoint, transport.DecodeUserRequest, transport.EncodeUserResponse)
+
+	options := []httptransport.ServerOption{
+		httptransport.ServerErrorEncoder(transport.MyErrorEncoder),
+	}
+
+	serverHandler := httptransport.NewServer(userEndpoint, transport.DecodeUserRequest, transport.EncodeUserResponse, options...)
 	r := mux.NewRouter()
 	r.Handle("/user/{uid:\\d+}", serverHandler)
 	r.Methods("GET").Path("/health").HandlerFunc(func(w http.ResponseWriter,r *http.Request) {
