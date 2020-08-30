@@ -10,6 +10,7 @@ import (
 	"go-kit-srv/service/discovery"
 	"go-kit-srv/service/endpoint"
 	"go-kit-srv/service/transport"
+	"golang.org/x/time/rate"
 	"log"
 	"net/http"
 	"os"
@@ -32,7 +33,8 @@ func main() {
 	discovery.SetServiceNameAndPort(*name, *port)
 
 	user:=service.UserService{}
-	userEndpoint:=endpoint.GenUserEndpoint(user)
+	limit := rate.NewLimiter(1,  3)
+	userEndpoint:= endpoint.RateLimit(limit)(endpoint.GenUserEndpoint(user))
 	serverHandler := httptransport.NewServer(userEndpoint, transport.DecodeUserRequest, transport.EncodeUserResponse)
 	r := mux.NewRouter()
 	r.Handle("/user/{uid:\\d+}", serverHandler)
