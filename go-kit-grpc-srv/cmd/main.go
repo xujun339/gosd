@@ -14,7 +14,6 @@ import (
 	"os"
 )
 
-//创建bookList的EndPoint
 func makeSayHelloMyEndpoint() endpoint.Endpoint {
 	return func(ctx context.Context, request interface{}) (interface{}, error) {
 		if r,ok:=request.(*pb.HelloRequest); ok {
