@@ -1,0 +1,279 @@
+{"level":"DEBUG","time":"2020-09-17T17:40:11.658+0800","caller":"application/app.go:10","msg":"initlogger success"}
+{"level":"ERROR","time":"2020-09-17T17:40:11.668+0800","caller":"application/redis.go:30","msg":"initRedis fail, err:ERR Client sent AUTH, but no password is set"}
+{"level":"DEBUG","time":"2020-09-17T17:41:08.746+0800","caller":"application/app.go:10","msg":"initlogger success"}
+{"level":"DEBUG","time":"2020-09-17T17:44:37.667+0800","caller":"application/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-17T17:44:37.677+0800","caller":"application/redis.go:35","msg":"init redis success"}
+{"level":"DEBUG","time":"2020-09-17T18:03:08.663+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-17T18:03:08.667+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"DEBUG","time":"2020-09-17T18:04:30.204+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-17T18:04:30.207+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"DEBUG","time":"2020-09-17T18:05:42.428+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-17T18:05:42.431+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"DEBUG","time":"2020-09-17T18:06:37.951+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-17T18:06:37.954+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-17T18:06:44.117+0800","caller":"router/router.go:29","msg":"goTest:hello go-redis"}
+{"level":"INFO","time":"2020-09-17T18:08:45.295+0800","caller":"router/router.go:29","msg":"goTest:hello go-redis"}
+{"level":"DEBUG","time":"2020-09-17T18:12:41.325+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-17T18:12:41.329+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-17T18:12:46.084+0800","caller":"router/router.go:30","msg":"goTest:hello go-redis"}
+{"level":"DEBUG","time":"2020-09-17T18:16:06.530+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-17T18:16:06.535+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-17T18:16:08.882+0800","caller":"router/router.go:30","msg":"goTest:hello go-redis"}
+{"level":"DEBUG","time":"2020-09-17T19:30:53.820+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-17T19:30:53.823+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-17T19:31:10.811+0800","caller":"router/router.go:30","msg":"goTest:hello go-redis"}
+{"level":"DEBUG","time":"2020-09-17T19:33:06.872+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-17T19:33:06.876+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-17T19:33:08.590+0800","caller":"router/router.go:30","msg":"goTest:hello go-redis"}
+{"level":"DEBUG","time":"2020-09-17T19:52:05.519+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-17T19:52:05.526+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-17T19:52:05.802+0800","caller":"router/router.go:31","msg":"goTest:hello go-redis"}
+{"level":"INFO","time":"2020-09-17T19:52:05.807+0800","caller":"router/router.go:40","msg":"goTest:1"}
+{"level":"INFO","time":"2020-09-17T19:52:10.087+0800","caller":"router/router.go:31","msg":"goTest:hello go-redis"}
+{"level":"INFO","time":"2020-09-17T19:52:10.087+0800","caller":"router/router.go:40","msg":"goTest:1"}
+{"level":"DEBUG","time":"2020-09-17T19:54:27.606+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-17T19:54:27.609+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-17T19:54:28.749+0800","caller":"router/router.go:31","msg":"goTest:hello go-redis"}
+{"level":"INFO","time":"2020-09-17T19:54:28.749+0800","caller":"router/router.go:40","msg":"goTest:1"}
+{"level":"DEBUG","time":"2020-09-17T19:55:38.602+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-17T19:55:38.606+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"DEBUG","time":"2020-09-17T19:56:53.317+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-17T19:56:53.323+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-17T19:57:01.263+0800","caller":"application/app.go:36","msg":"goTest:hello go-redis"}
+{"level":"INFO","time":"2020-09-17T19:57:03.341+0800","caller":"application/app.go:45","msg":"goTest:1"}
+{"level":"INFO","time":"2020-09-17T19:57:15.194+0800","caller":"application/app.go:51","msg":"getTest1 append:21"}
+{"level":"DEBUG","time":"2020-09-17T20:00:16.470+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-17T20:00:16.474+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-17T20:01:33.610+0800","caller":"application/app.go:36","msg":"goTest:hello go-redis"}
+{"level":"INFO","time":"2020-09-17T20:01:33.611+0800","caller":"application/app.go:45","msg":"goTest:1"}
+{"level":"INFO","time":"2020-09-17T20:01:33.612+0800","caller":"application/app.go:51","msg":"getTest1 append:21"}
+{"level":"INFO","time":"2020-09-17T20:01:33.613+0800","caller":"application/app.go:59","msg":"mykey decrby 5:5"}
+{"level":"DEBUG","time":"2020-09-17T20:03:32.520+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-17T20:03:32.525+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-17T20:03:34.010+0800","caller":"application/app.go:36","msg":"goTest:hello go-redis"}
+{"level":"INFO","time":"2020-09-17T20:03:34.010+0800","caller":"application/app.go:45","msg":"goTest:1"}
+{"level":"INFO","time":"2020-09-17T20:03:34.010+0800","caller":"application/app.go:51","msg":"getTest1 append:21"}
+{"level":"INFO","time":"2020-09-17T20:03:34.011+0800","caller":"application/app.go:59","msg":"mykey decrby 5:5"}
+{"level":"INFO","time":"2020-09-17T20:03:34.011+0800","caller":"application/app.go:65","msg":"mykey getrange 0,3:This"}
+{"level":"DEBUG","time":"2020-09-17T20:08:31.694+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-17T20:08:31.697+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-17T20:08:33.405+0800","caller":"application/app.go:37","msg":"goTest:hello go-redis"}
+{"level":"INFO","time":"2020-09-17T20:08:33.405+0800","caller":"application/app.go:46","msg":"goTest:1"}
+{"level":"INFO","time":"2020-09-17T20:08:33.405+0800","caller":"application/app.go:52","msg":"getTest1 append:21"}
+{"level":"INFO","time":"2020-09-17T20:08:33.405+0800","caller":"application/app.go:60","msg":"mykey decrby 5:5"}
+{"level":"INFO","time":"2020-09-17T20:08:33.405+0800","caller":"application/app.go:66","msg":"mykey getrange 0,3:This"}
+{"level":"DEBUG","time":"2020-09-17T20:16:48.600+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-17T20:16:48.608+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-17T20:16:49.632+0800","caller":"application/app.go:37","msg":"goTest:hello go-redis"}
+{"level":"INFO","time":"2020-09-17T20:16:49.632+0800","caller":"application/app.go:46","msg":"goTest:1"}
+{"level":"INFO","time":"2020-09-17T20:16:49.632+0800","caller":"application/app.go:52","msg":"getTest1 append:21"}
+{"level":"INFO","time":"2020-09-17T20:16:49.633+0800","caller":"application/app.go:60","msg":"mykey decrby 5:5"}
+{"level":"INFO","time":"2020-09-17T20:16:49.633+0800","caller":"application/app.go:66","msg":"mykey getrange 0,3:This"}
+{"level":"DEBUG","time":"2020-09-18T10:02:22.181+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T10:02:22.185+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T10:02:23.357+0800","caller":"application/app.go:37","msg":"goTest:hello go-redis"}
+{"level":"INFO","time":"2020-09-18T10:02:23.359+0800","caller":"application/app.go:46","msg":"goTest:1"}
+{"level":"INFO","time":"2020-09-18T10:02:23.360+0800","caller":"application/app.go:52","msg":"getTest1 append:21"}
+{"level":"INFO","time":"2020-09-18T10:02:23.362+0800","caller":"application/app.go:60","msg":"mykey decrby 5:5"}
+{"level":"INFO","time":"2020-09-18T10:02:23.364+0800","caller":"application/app.go:66","msg":"mykey getrange 0,3:This"}
+{"level":"INFO","time":"2020-09-18T10:02:23.367+0800","caller":"application/app.go:86","msg":"myset SCard:2"}
+{"level":"DEBUG","time":"2020-09-18T10:48:17.332+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T10:48:17.343+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T10:48:19.690+0800","caller":"application/app.go:38","msg":"goTest:hello go-redis"}
+{"level":"INFO","time":"2020-09-18T10:48:19.691+0800","caller":"application/app.go:47","msg":"goTest:1"}
+{"level":"INFO","time":"2020-09-18T10:48:19.693+0800","caller":"application/app.go:53","msg":"getTest1 append:21"}
+{"level":"INFO","time":"2020-09-18T10:48:19.695+0800","caller":"application/app.go:61","msg":"mykey decrby 5:5"}
+{"level":"INFO","time":"2020-09-18T10:48:19.700+0800","caller":"application/app.go:67","msg":"mykey getrange 0,3:This"}
+{"level":"INFO","time":"2020-09-18T10:48:19.702+0800","caller":"application/app.go:87","msg":"myset SCard:2"}
+{"level":"DEBUG","time":"2020-09-18T10:49:25.899+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T10:49:25.907+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T10:49:27.816+0800","caller":"application/app.go:38","msg":"goTest:hello go-redis"}
+{"level":"INFO","time":"2020-09-18T10:49:27.816+0800","caller":"application/app.go:47","msg":"goTest:1"}
+{"level":"INFO","time":"2020-09-18T10:49:27.816+0800","caller":"application/app.go:53","msg":"getTest1 append:21"}
+{"level":"INFO","time":"2020-09-18T10:49:27.817+0800","caller":"application/app.go:61","msg":"mykey decrby 5:5"}
+{"level":"INFO","time":"2020-09-18T10:49:27.817+0800","caller":"application/app.go:67","msg":"mykey getrange 0,3:This"}
+{"level":"INFO","time":"2020-09-18T10:49:27.819+0800","caller":"application/app.go:87","msg":"myset SCard:2"}
+{"level":"DEBUG","time":"2020-09-18T10:50:27.460+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T10:50:27.463+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T10:50:28.936+0800","caller":"application/app.go:38","msg":"goTest:hello go-redis"}
+{"level":"INFO","time":"2020-09-18T10:50:28.937+0800","caller":"application/app.go:47","msg":"goTest:1"}
+{"level":"INFO","time":"2020-09-18T10:50:28.937+0800","caller":"application/app.go:53","msg":"getTest1 append:21"}
+{"level":"INFO","time":"2020-09-18T10:50:28.937+0800","caller":"application/app.go:61","msg":"mykey decrby 5:5"}
+{"level":"INFO","time":"2020-09-18T10:50:28.937+0800","caller":"application/app.go:67","msg":"mykey getrange 0,3:This"}
+{"level":"INFO","time":"2020-09-18T10:50:28.940+0800","caller":"application/app.go:87","msg":"myset SCard:2"}
+{"level":"DEBUG","time":"2020-09-18T11:00:50.333+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T11:00:50.339+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T11:00:52.312+0800","caller":"application/app.go:38","msg":"goTest:hello go-redis"}
+{"level":"INFO","time":"2020-09-18T11:00:52.312+0800","caller":"application/app.go:47","msg":"goTest:1"}
+{"level":"INFO","time":"2020-09-18T11:00:52.312+0800","caller":"application/app.go:53","msg":"getTest1 append:21"}
+{"level":"INFO","time":"2020-09-18T11:00:52.312+0800","caller":"application/app.go:61","msg":"mykey decrby 5:5"}
+{"level":"INFO","time":"2020-09-18T11:00:52.313+0800","caller":"application/app.go:67","msg":"mykey getrange 0,3:This"}
+{"level":"INFO","time":"2020-09-18T11:00:52.313+0800","caller":"application/app.go:87","msg":"myset SCard:2"}
+{"level":"DEBUG","time":"2020-09-18T11:03:01.193+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T11:03:01.197+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"DEBUG","time":"2020-09-18T11:03:12.075+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T11:03:12.078+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T11:03:14.136+0800","caller":"application/app.go:38","msg":"goTest:hello go-redis"}
+{"level":"INFO","time":"2020-09-18T11:03:14.136+0800","caller":"application/app.go:47","msg":"goTest:1"}
+{"level":"INFO","time":"2020-09-18T11:03:14.136+0800","caller":"application/app.go:53","msg":"getTest1 append:21"}
+{"level":"INFO","time":"2020-09-18T11:03:14.137+0800","caller":"application/app.go:61","msg":"mykey decrby 5:5"}
+{"level":"INFO","time":"2020-09-18T11:03:14.137+0800","caller":"application/app.go:67","msg":"mykey getrange 0,3:This"}
+{"level":"INFO","time":"2020-09-18T11:03:14.145+0800","caller":"application/app.go:87","msg":"myset SCard:2"}
+{"level":"DEBUG","time":"2020-09-18T11:16:43.168+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T11:16:43.173+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T11:16:43.173+0800","caller":"application/app.go:38","msg":"goTest:hello go-redis"}
+{"level":"INFO","time":"2020-09-18T11:16:43.173+0800","caller":"application/app.go:47","msg":"goTest:1"}
+{"level":"INFO","time":"2020-09-18T11:16:43.173+0800","caller":"application/app.go:53","msg":"getTest1 append:21"}
+{"level":"INFO","time":"2020-09-18T11:16:43.174+0800","caller":"application/app.go:61","msg":"mykey decrby 5:5"}
+{"level":"INFO","time":"2020-09-18T11:16:43.174+0800","caller":"application/app.go:67","msg":"mykey getrange 0,3:This"}
+{"level":"INFO","time":"2020-09-18T11:16:43.178+0800","caller":"application/app.go:87","msg":"myset SCard:2"}
+{"level":"DEBUG","time":"2020-09-18T11:17:12.163+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T11:17:12.166+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T11:17:12.167+0800","caller":"application/app.go:38","msg":"goTest:hello go-redis"}
+{"level":"INFO","time":"2020-09-18T11:17:12.167+0800","caller":"application/app.go:47","msg":"goTest:1"}
+{"level":"INFO","time":"2020-09-18T11:17:12.167+0800","caller":"application/app.go:53","msg":"getTest1 append:21"}
+{"level":"INFO","time":"2020-09-18T11:17:12.167+0800","caller":"application/app.go:61","msg":"mykey decrby 5:5"}
+{"level":"INFO","time":"2020-09-18T11:17:12.167+0800","caller":"application/app.go:67","msg":"mykey getrange 0,3:This"}
+{"level":"INFO","time":"2020-09-18T11:17:12.170+0800","caller":"application/app.go:87","msg":"myset SCard:2"}
+{"level":"DEBUG","time":"2020-09-18T11:19:31.215+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T11:19:31.225+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T11:19:31.225+0800","caller":"application/app.go:38","msg":"goTest:hello go-redis"}
+{"level":"INFO","time":"2020-09-18T11:19:31.226+0800","caller":"application/app.go:47","msg":"goTest:1"}
+{"level":"INFO","time":"2020-09-18T11:19:31.226+0800","caller":"application/app.go:53","msg":"getTest1 append:21"}
+{"level":"INFO","time":"2020-09-18T11:19:31.226+0800","caller":"application/app.go:61","msg":"mykey decrby 5:5"}
+{"level":"INFO","time":"2020-09-18T11:19:31.226+0800","caller":"application/app.go:67","msg":"mykey getrange 0,3:This"}
+{"level":"INFO","time":"2020-09-18T11:19:31.227+0800","caller":"application/app.go:87","msg":"myset SCard:2"}
+{"level":"DEBUG","time":"2020-09-18T11:50:15.038+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T11:50:15.048+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T11:50:15.048+0800","caller":"application/app.go:38","msg":"goTest:hello go-redis"}
+{"level":"INFO","time":"2020-09-18T11:50:15.048+0800","caller":"application/app.go:47","msg":"goTest:1"}
+{"level":"INFO","time":"2020-09-18T11:50:15.048+0800","caller":"application/app.go:53","msg":"getTest1 append:21"}
+{"level":"INFO","time":"2020-09-18T11:50:15.048+0800","caller":"application/app.go:61","msg":"mykey decrby 5:5"}
+{"level":"INFO","time":"2020-09-18T11:50:15.048+0800","caller":"application/app.go:67","msg":"mykey getrange 0,3:This"}
+{"level":"INFO","time":"2020-09-18T11:50:15.049+0800","caller":"application/app.go:87","msg":"myset SCard:2"}
+{"level":"DEBUG","time":"2020-09-18T15:17:32.385+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T15:17:32.393+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"ERROR","time":"2020-09-18T15:17:32.393+0800","caller":"start/mysql.go:80","msg":"Open mysql failed,err:sql: unknown driver \"mysql\" (forgotten import?)\n"}
+{"level":"DEBUG","time":"2020-09-18T15:18:40.552+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T15:18:40.559+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"DEBUG","time":"2020-09-18T16:23:07.046+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T16:23:07.055+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"DEBUG","time":"2020-09-18T16:24:33.699+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T16:24:33.704+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"DEBUG","time":"2020-09-18T16:24:38.956+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T16:24:38.961+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"DEBUG","time":"2020-09-18T16:26:54.276+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T16:26:54.280+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"DEBUG","time":"2020-09-18T16:26:58.930+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T16:26:58.933+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"DEBUG","time":"2020-09-18T16:27:23.334+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T16:27:23.339+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"DEBUG","time":"2020-09-18T16:27:36.581+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T16:27:36.585+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"DEBUG","time":"2020-09-18T16:28:53.711+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T16:28:53.715+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"DEBUG","time":"2020-09-18T16:28:58.588+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T16:28:58.591+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"DEBUG","time":"2020-09-18T16:29:19.392+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T16:29:19.397+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"DEBUG","time":"2020-09-18T16:29:24.398+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T16:29:24.400+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"DEBUG","time":"2020-09-18T16:32:10.775+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T16:32:10.779+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"ERROR","time":"2020-09-18T16:32:10.786+0800","caller":"application/app.go:45","msg":"scan err:sql: expected 87 destination arguments in Scan, not 1"}
+{"level":"DEBUG","time":"2020-09-18T16:33:16.806+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T16:33:16.810+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"ERROR","time":"2020-09-18T16:33:16.817+0800","caller":"application/app.go:45","msg":"scan err:sql: expected 5 destination arguments in Scan, not 1"}
+{"level":"DEBUG","time":"2020-09-18T16:33:59.667+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T16:33:59.673+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"ERROR","time":"2020-09-18T16:34:04.743+0800","caller":"application/app.go:45","msg":"scan err:sql: expected 5 destination arguments in Scan, not 1"}
+{"level":"DEBUG","time":"2020-09-18T16:34:10.171+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T16:34:10.175+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"ERROR","time":"2020-09-18T16:35:23.029+0800","caller":"application/app.go:45","msg":"scan err:sql: expected 5 destination arguments in Scan, not 1"}
+{"level":"DEBUG","time":"2020-09-18T16:35:52.900+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T16:35:52.904+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"ERROR","time":"2020-09-18T16:35:52.913+0800","caller":"application/app.go:45","msg":"scan err:sql: Scan error on column index 4, name \"reroute_time\": unsupported Scan, storing driver.Value type <nil> into type *time.Time"}
+{"level":"DEBUG","time":"2020-09-18T16:37:01.166+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T16:37:01.169+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"ERROR","time":"2020-09-18T16:37:01.178+0800","caller":"application/app.go:46","msg":"scan err:missing destination name order_fleet_status in *model.Order"}
+{"level":"DEBUG","time":"2020-09-18T16:37:47.797+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T16:37:47.802+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T16:37:47.810+0800","caller":"application/app.go:48","msg":"model.Order{OrderId:1, CityId:1012, OrderStatus:2, Latlong:sql.NullString{String:\"22.573369251099|114.05493823882,22.573333369891|114.05498268218\", Valid:true}, RerouteTime:sql.NullTime{Time:time.Time{wall:0x0, ext:0, loc:(*time.Location)(nil)}, Valid:false}}"}
+{"level":"DEBUG","time":"2020-09-18T16:37:54.731+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T16:37:54.736+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T16:37:54.742+0800","caller":"application/app.go:48","msg":"model.Order{OrderId:1, CityId:1012, OrderStatus:2, Latlong:sql.NullString{String:\"22.573369251099|114.05493823882,22.573333369891|114.05498268218\", Valid:true}, RerouteTime:sql.NullTime{Time:time.Time{wall:0x0, ext:0, loc:(*time.Location)(nil)}, Valid:false}}"}
+{"level":"DEBUG","time":"2020-09-18T16:38:36.156+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T16:38:36.160+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"ERROR","time":"2020-09-18T16:38:36.170+0800","caller":"application/app.go:46","msg":"scan err:missing destination name order_fleet_status in *model.Order"}
+{"level":"DEBUG","time":"2020-09-18T16:53:26.419+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T16:53:26.448+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T16:53:26.460+0800","caller":"application/app.go:48","msg":"model.Order{OrderId:1, CityId:1012, OrderStatus:2, Latlong:sql.NullString{String:\"22.573369251099|114.05493823882,22.573333369891|114.05498268218\", Valid:true}, RerouteTime:sql.NullTime{Time:time.Time{wall:0x0, ext:0, loc:(*time.Location)(nil)}, Valid:false}}"}
+{"level":"DEBUG","time":"2020-09-18T16:55:30.480+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T16:55:30.497+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T16:55:30.512+0800","caller":"application/app.go:49","msg":"model.Order{OrderId:1, CityId:1012, OrderStatus:2, Latlong:sql.NullString{String:\"22.573369251099|114.05493823882,22.573333369891|114.05498268218\", Valid:true}, RerouteTime:sql.NullTime{Time:time.Time{wall:0x0, ext:0, loc:(*time.Location)(nil)}, Valid:false}}"}
+{"level":"DEBUG","time":"2020-09-18T16:55:44.607+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T16:55:44.610+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T16:55:44.620+0800","caller":"application/app.go:49","msg":"model.Order{OrderId:1, CityId:1012, OrderStatus:2, Latlong:sql.NullString{String:\"22.573369251099|114.05493823882,22.573333369891|114.05498268218\", Valid:true}, RerouteTime:sql.NullTime{Time:time.Time{wall:0x0, ext:0, loc:(*time.Location)(nil)}, Valid:false}}"}
+{"level":"DEBUG","time":"2020-09-18T16:56:05.781+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T16:56:05.786+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T16:56:05.794+0800","caller":"application/app.go:49","msg":"model.Order{OrderId:1, CityId:1012, OrderStatus:2, Latlong:sql.NullString{String:\"22.573369251099|114.05493823882,22.573333369891|114.05498268218\", Valid:true}, RerouteTime:sql.NullTime{Time:time.Time{wall:0x0, ext:0, loc:(*time.Location)(nil)}, Valid:false}}"}
+{"level":"DEBUG","time":"2020-09-18T17:01:34.189+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T17:01:34.195+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"ERROR","time":"2020-09-18T17:01:34.204+0800","caller":"application/app.go:47","msg":"scan err:sql: Scan error on column index 4, name \"reroute_time\": unsupported Scan, storing driver.Value type <nil> into type *model.NullTime"}
+{"level":"DEBUG","time":"2020-09-18T17:01:39.726+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T17:01:39.730+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"ERROR","time":"2020-09-18T17:01:39.746+0800","caller":"application/app.go:47","msg":"scan err:sql: Scan error on column index 4, name \"reroute_time\": unsupported Scan, storing driver.Value type <nil> into type *model.NullTime"}
+{"level":"DEBUG","time":"2020-09-18T17:05:42.085+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T17:05:42.089+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"DEBUG","time":"2020-09-18T17:05:56.360+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T17:05:56.363+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T17:05:56.371+0800","caller":"application/app.go:49","msg":"model.Order{OrderId:1, CityId:1012, OrderStatus:2, Latlong:sql.NullString{String:\"22.573369251099|114.05493823882,22.573333369891|114.05498268218\", Valid:true}, RerouteTime:model.NullTime{NullTime:sql.NullTime{Time:time.Time{wall:0x0, ext:0, loc:(*time.Location)(nil)}, Valid:false}}}"}
+{"level":"DEBUG","time":"2020-09-18T17:06:18.927+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T17:06:18.932+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T17:06:21.061+0800","caller":"application/app.go:49","msg":"model.Order{OrderId:1, CityId:1012, OrderStatus:2, Latlong:sql.NullString{String:\"22.573369251099|114.05493823882,22.573333369891|114.05498268218\", Valid:true}, RerouteTime:model.NullTime{NullTime:sql.NullTime{Time:time.Time{wall:0x0, ext:0, loc:(*time.Location)(nil)}, Valid:false}}}"}
+{"level":"DEBUG","time":"2020-09-18T17:07:15.707+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T17:07:15.712+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T17:07:15.721+0800","caller":"application/app.go:49","msg":"model.Order{OrderId:1, CityId:1012, OrderStatus:2, Latlong:sql.NullString{String:\"22.573369251099|114.05493823882,22.573333369891|114.05498268218\", Valid:true}, RerouteTime:model.NullTime{NullTime:sql.NullTime{Time:time.Time{wall:0x0, ext:0, loc:(*time.Location)(nil)}, Valid:false}}}"}
+{"level":"DEBUG","time":"2020-09-18T17:07:28.514+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T17:07:28.518+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T17:07:32.318+0800","caller":"application/app.go:49","msg":"model.Order{OrderId:1, CityId:1012, OrderStatus:2, Latlong:sql.NullString{String:\"22.573369251099|114.05493823882,22.573333369891|114.05498268218\", Valid:true}, RerouteTime:model.NullTime{NullTime:sql.NullTime{Time:time.Time{wall:0x0, ext:0, loc:(*time.Location)(nil)}, Valid:false}}}"}
+{"level":"DEBUG","time":"2020-09-18T17:08:33.731+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T17:08:33.734+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T17:08:33.743+0800","caller":"application/app.go:49","msg":"model.Order{OrderId:1, CityId:1012, OrderStatus:2, Latlong:sql.NullString{String:\"22.573369251099|114.05493823882,22.573333369891|114.05498268218\", Valid:true}, RerouteTime:model.NullTime{NullTime:sql.NullTime{Time:time.Time{wall:0x0, ext:0, loc:(*time.Location)(nil)}, Valid:false}}}"}
+{"level":"DEBUG","time":"2020-09-18T17:09:00.144+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T17:09:00.149+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T17:09:08.099+0800","caller":"application/app.go:49","msg":"model.Order{OrderId:1, CityId:1012, OrderStatus:2, Latlong:sql.NullString{String:\"22.573369251099|114.05493823882,22.573333369891|114.05498268218\", Valid:true}, RerouteTime:model.NullTime{NullTime:sql.NullTime{Time:time.Time{wall:0x0, ext:0, loc:(*time.Location)(nil)}, Valid:false}}}"}
+{"level":"DEBUG","time":"2020-09-18T17:10:14.815+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T17:10:14.821+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T17:10:17.105+0800","caller":"application/app.go:49","msg":"model.Order{OrderId:127619, CityId:1012, OrderStatus:10, Latlong:sql.NullString{String:\"22.573275985896|114.05569672958,22.533576708395|114.054673692\", Valid:true}, RerouteTime:model.NullTime{NullTime:sql.NullTime{Time:time.Time{wall:0x0, ext:63689436368, loc:(*time.Location)(0xc000078000)}, Valid:true}}}"}
+{"level":"DEBUG","time":"2020-09-18T17:11:43.308+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T17:11:43.312+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"ERROR","time":"2020-09-18T17:11:43.321+0800","caller":"application/app.go:47","msg":"scan err:sql: Scan error on column index 4, name \"reroute_time\": unsupported Scan, storing driver.Value type <nil> into type *time.Time"}
+{"level":"DEBUG","time":"2020-09-18T17:12:11.194+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T17:12:11.198+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T17:12:11.210+0800","caller":"application/app.go:49","msg":"model.Order{OrderId:127619, CityId:1012, OrderStatus:10, Latlong:sql.NullString{String:\"22.573275985896|114.05569672958,22.533576708395|114.054673692\", Valid:true}, RerouteTime:time.Time{wall:0x0, ext:63689436368, loc:(*time.Location)(0xc000234000)}}"}
+{"level":"DEBUG","time":"2020-09-18T17:12:59.753+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T17:12:59.757+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"ERROR","time":"2020-09-18T17:12:59.765+0800","caller":"application/app.go:47","msg":"scan err:sql: Scan error on column index 4, name \"reroute_time\": unsupported Scan, storing driver.Value type <nil> into type *time.Time"}
+{"level":"DEBUG","time":"2020-09-18T17:13:06.185+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T17:13:06.190+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"ERROR","time":"2020-09-18T17:13:06.200+0800","caller":"application/app.go:47","msg":"scan err:sql: Scan error on column index 4, name \"reroute_time\": unsupported Scan, storing driver.Value type <nil> into type *time.Time"}
+{"level":"DEBUG","time":"2020-09-18T17:13:08.940+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T17:13:08.943+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"ERROR","time":"2020-09-18T17:13:08.952+0800","caller":"application/app.go:47","msg":"scan err:sql: Scan error on column index 4, name \"reroute_time\": unsupported Scan, storing driver.Value type <nil> into type *time.Time"}
+{"level":"DEBUG","time":"2020-09-18T17:13:14.522+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T17:13:14.526+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"ERROR","time":"2020-09-18T17:13:23.293+0800","caller":"application/app.go:47","msg":"scan err:sql: Scan error on column index 4, name \"reroute_time\": unsupported Scan, storing driver.Value type <nil> into type *time.Time"}
+{"level":"DEBUG","time":"2020-09-18T17:13:40.549+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T17:13:40.552+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T17:13:40.559+0800","caller":"application/app.go:49","msg":"model.Order{OrderId:1, CityId:1012, OrderStatus:2, Latlong:sql.NullString{String:\"22.573369251099|114.05493823882,22.573333369891|114.05498268218\", Valid:true}, RerouteTime:model.NullTime{NullTime:sql.NullTime{Time:time.Time{wall:0x0, ext:0, loc:(*time.Location)(nil)}, Valid:false}}}"}
+{"level":"DEBUG","time":"2020-09-18T17:15:02.086+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T17:15:02.090+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T17:15:02.096+0800","caller":"application/app.go:49","msg":"model.Order{OrderId:1, CityId:1012, OrderStatus:2, Latlong:sql.NullString{String:\"22.573369251099|114.05493823882,22.573333369891|114.05498268218\", Valid:true}, RerouteTime:model.NullTime{NullTime:sql.NullTime{Time:time.Time{wall:0x0, ext:0, loc:(*time.Location)(nil)}, Valid:false}}}"}
+{"level":"DEBUG","time":"2020-09-18T17:15:12.675+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T17:15:12.678+0800","caller":"start/redis.go:42","msg":"init redis success"}
+{"level":"INFO","time":"2020-09-18T17:15:12.686+0800","caller":"application/app.go:49","msg":"model.Order{OrderId:1, CityId:1012, OrderStatus:2, Latlong:sql.NullString{String:\"\", Valid:false}, RerouteTime:model.NullTime{NullTime:sql.NullTime{Time:time.Time{wall:0x0, ext:0, loc:(*time.Location)(nil)}, Valid:false}}}"}
+{"level":"DEBUG","time":"2020-09-18T17:15:39.498+0800","caller":"start/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-09-18T17:15:39.502+0800","caller":"start/redis.go:42","msg":"init redis success"}
+2020-09-18T17:32:01.060+0800	DEBUG	start/logger.go:44	init logger success
+2020-09-18T17:32:01.063+0800	DEBUG	start/redis.go:42	init redis success
